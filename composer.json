@@ -1,0 +1,13 @@
+{
+    "name": "naexus/exam_dfs22c_user_pets",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "description": ""
+}

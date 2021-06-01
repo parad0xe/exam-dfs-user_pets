@@ -1,0 +1,74 @@
+
+* { box-sizing: border-box; }
+
+.color-black {
+	color: black;
+}
+.no-decoration {
+	text-decoration: none;
+}
+
+#header__button__account {
+	color: white;
+}
+
+.container {
+	margin: 0 10% !important;
+	padding: 20px 0;
+}
+
+.container-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 50px !important;
+}
+
+.row {
+	width: 100%;
+}
+
+.alert {
+	width: 100%;
+	padding: 15px 20px;
+	margin-top: 5px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.alert-close {
+	display: inline-block;
+	float: right;
+	width: 1%;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.alert p {
+	margin: 0;
+	font-weight: bold;
+	width: 99%;
+	text-align: center;
+}
+.alert-errors {
+	background-color: #ff433f;
+}
+.alert-success {
+	background-color: #45d845;
+}
+.alert-warnings {
+	background-color: #ffbc42;
+}
+
+.alert-infos {
+	background-color: #8686e4;
+}
+
+form, input, .mdl-textfield {
+	width: 100% !important;
+}
+
+.table-container {
+	overflow: hidden;
+	overflow-x: auto !important;
+}
