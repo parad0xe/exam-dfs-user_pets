@@ -1,5 +1,4 @@
 ```
-
 ## Installation
 
 Les fichiers du projets doivent être placé à la racine 
@@ -23,4 +22,6 @@ lancement de l'application.
 Autrement, un fichier au format SQL contenant l'intégralité des données 
 requises est également joint.
 
+
+Examen PHP réalisé sur une journée et demi.
 ```
